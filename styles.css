@@ -1,0 +1,116 @@
+body {
+font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+  /* background-color: DodgerBlue; */
+  flex-wrap: wrap;
+
+}
+
+.icon-container, .widget-container, .button-container, .header-container, .icon-name-section-container {
+  display: flex;
+}
+
+.widget-container {
+  flex-direction: column;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.icon-name {
+  font-size: 15px;
+  color: #42413b;
+
+}
+
+.icon-space {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.flex-container > div {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 28%;
+}
+
+.widget-heading {
+  font-size: 21px;
+}
+
+.sub-heading {
+  font-size: 17px;
+  margin-top: 6px;
+  color: #42413b;
+}
+
+.icon-container {
+  align-self: stretch;
+  width: 94%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.widget-options {
+  /* float: right; */
+  font-size: 20px;
+  color: #8a8686;
+  margin-top: 7px;
+}
+
+.footer-divider {
+  border-color: #efefef;
+  width: -webkit-fill-available;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.widget-buttons {
+  margin-left: 10px;
+  border: none;
+  font-size: 15px;
+  padding: 6px 17px 9px 17px;
+  border-radius: 4px;
+  color: #42413b;
+  background-color: white;
+}
+
+.button-hover {
+  background-color: #efefef ;
+}
+
+.widget-icon {
+  color: #c5c0c0;
+  font-size: 20px;
+}
+
+.button-container {
+  justify-content: flex-end;
+  margin-right: 8px;
+  flex-wrap: wrap;
+}
+
+.header-container, .icon-container, .icon-name-section-container {
+  flex-flow: row, wrap;
+  justify-content: space-between;
+}
+
+.icon-name-section-container {
+      height: 26px;
+}
+
+.fa-cloud {
+  font-size: 18px;
+}
+
+.fa-archive {
+  font-size: 19px;
+}
